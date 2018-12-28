@@ -26,6 +26,7 @@ defmodule Floki.Mixfile do
     [
       {:mochiweb, "~> 2.15"},
       {:html_entities, "~> 0.4.0"},
+      {:jason, "~> 1.1"},
       {:earmark, "~> 1.2", only: :dev},
       {:ex_doc, "~> 0.18", only: :dev},
       {:credo, ">= 0.0.0", only: [:dev, :test]},
